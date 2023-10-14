@@ -1,0 +1,136 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+$ git branch
+  branch1
+* main
+  master
+$ git log
+commit 1dcec58f139a063254ec71712c4cc3f931cc357f (HEAD -> master)
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:41:09 2023 +0300
+
+    changes in task1.txt
+
+commit e51482f6ec89b46db96264341d3891029ff2dcc4
+Merge: 2e1bbeb 8c18324
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:39:37 2023 +0300
+
+    Merge branch 'main' of https://github.com/pingmar/task
+
+commit 2e1bbeb697f3c604151584a3c83cc5c17da30981 (origin/master)
+Merge: cbeee2a 9e6820e
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:34:15 2023 +0300
+
+    resolve conflict in task1.txt
+
+commit cbeee2ad62a262d7ea69c0ddae3c146411d519f0
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:32:30 2023 +0300
+
+    change task1.txt
+
+commit 8c18324a658e7d33180d4b0d67931c9514ee2b3e (origin/main, main)
+Author: pingmar <141325977+pingmar@users.noreply.github.com>
+Date:   Sat Oct 14 13:32:18 2023 +0300
+
+    Create task2
+
+commit 1dcec58f139a063254ec71712c4cc3f931cc357f (HEAD -> master)
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:41:09 2023 +0300
+
+    changes in task1.txt
+
+commit e51482f6ec89b46db96264341d3891029ff2dcc4
+Merge: 2e1bbeb 8c18324
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:39:37 2023 +0300
+
+    Merge branch 'main' of https://github.com/pingmar/task
+
+commit 2e1bbeb697f3c604151584a3c83cc5c17da30981 (origin/master)
+Merge: cbeee2a 9e6820e
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:34:15 2023 +0300
+
+    resolve conflict in task1.txt
+commit cbeee2ad62a262d7ea69c0ddae3c146411d519f0
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:32:30 2023 +0300
+
+    change task1.txt
+
+commit 8c18324a658e7d33180d4b0d67931c9514ee2b3e (origin/main, main)
+Author: pingmar <141325977+pingmar@users.noreply.github.com>
+Date:   Sat Oct 14 13:32:18 2023 +0300
+
+    Create task2
+
+commit 9e6820ea0498b47772b62ded4e468fd8d731cbdb (origin/branch1, branch1)
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:28:34 2023 +0300
+
+    change task1.txt
+
+commit b60ee39a0fab103f7e65bc508fd7f04c531bc252
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:27:22 2023 +0300
+
+    add task1.txt to branch1
+
+:
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:32:30 2023 +0300
+
+    change task1.txt
+
+commit 8c18324a658e7d33180d4b0d67931c9514ee2b3e (origin/main, main)
+Author: pingmar <141325977+pingmar@users.noreply.github.com>
+Date:   Sat Oct 14 13:32:18 2023 +0300
+
+    Create task2
+
+commit 9e6820ea0498b47772b62ded4e468fd8d731cbdb (origin/branch1, branch1)
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:28:34 2023 +0300
+
+    change task1.txt
+
+commit b60ee39a0fab103f7e65bc508fd7f04c531bc252
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:27:22 2023 +0300
+
+    add task1.txt to branch1
+
+commit 8b5c8f43c5ce352c2a55cf3430ab2b38ae6247a1
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:25:01 2023 +0300
+
+    add task1.txt
+
+commit 9f2e5a1a29271fac17ab06459f73d1b53a234c9d
+Author: pingmar <141325977+pingmar@users.noreply.github.com>
+Date:   Sat Oct 14 13:13:28 2023 +0300
+
+    Initial commit
+
+$ git log --merges
+commit e51482f6ec89b46db96264341d3891029ff2dcc4
+Merge: 2e1bbeb 8c18324
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:39:37 2023 +0300
+
+    Merge branch 'main' of https://github.com/pingmar/task
+
+commit 2e1bbeb697f3c604151584a3c83cc5c17da30981 (origin/master)
+Merge: cbeee2a 9e6820e
+Author: Roman <maroderone@gmail.com>
+Date:   Sat Oct 14 13:34:15 2023 +0300
+
+    resolve conflict in task1.txt
+
